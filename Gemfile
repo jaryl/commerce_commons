@@ -6,7 +6,7 @@ gemspec
 
 gem "puma"
 
-gem "sqlite3"
+gem 'sqlite3', '~> 1.3', '>= 1.3.11'
 
 gem "sprockets-rails"
 
@@ -15,4 +15,5 @@ gem "sprockets-rails"
 
 group :development, :test do
   gem 'rspec-rails', '~> 6.1.0'
+  gem 'shoulda-matchers', '~> 6.0'
 end
